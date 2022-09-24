@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/x-icon" href="/image/crtd_logo.png">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-nav">
+            <div class="header-logo">
+                <img src="/image/crtd_logo.png" alt="">
+                <div class="vl"></div>
+                <div class="logo-content">
+                    <h3>CRTD Technologies
+                    </h3>
+                    <p>Inventing Better Future</p>
+                </div>
+                <div class="menu-icon">
+                    <img src="/image/menuicon1.png" onclick="showMenu()">
+                </div>
+            </div>
+            <div class="navbar" id="menu">
+
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT</li>
+                    </a>
+
+                    <a href="team.html">
+                        <li>TEAM</li>
+                    </a>
+                    <a href="career.html">
+                        <li>CAREER </li>
+                    </a>
+                    <a href="gallery.html">
+                        <li>GALLERY</li>
+                    </a>
+                </ul>
+
+                <div class="right-nav">
+
+                    <a href="contact.html"><button>CONTACT US</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="intern">
+            <div class="intern-head">
+                <h1>EXPERIENCE CAREER</h1>
+            </div>
+            <div class="intern-image1">
+                <img src="/image/internship.gif" alt="">
+            </div>
+            <div class="intern-detail">
+                <div class="intern-detail-left">
+                    <h2>What is Experience</h2>
+                    <p>Work experience is any experience that a person gains while working in a specific field or occupation, but the expression is widely used to mean a type of volunteer work that is commonly intended for young people - often students - to get a feel for professional working environments.Many employers in the more sought after professions demand that every new entrant undergo a period of unpaid "work experience" before being able to get paid work.</p>
+
+                   
+                </div>
+                
+            </div>
+        </div>
+        <div class="apply-btn">
+            <a href="https://crtd.in/CRTD_TECHNOLOGIES.apk"><button>DOWNLOAD OUR APP & APPLY</button></a>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>ABOUT US</h3>
+                    <p>CRTD Technologies is rated as the best software company in India. We combine creativity with
+                        technology to give you supreme business results on the internet.</p>
+                </div>
+                <div class="footer-link">
+                    <h3>USEFUL LINKS</h3>
+                    <ul>
+                        <a href="">
+                            <li>Home</li>
+                        </a>
+                        <a href="">
+                            <li>FAQ's</li>
+                        </a>
+                        <a href="">
+                            <li>Contact</li>
+                        </a>
+                        <a href="">
+                            <li>Payment Options</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="mobile-app">
+                    <h3>OUR MOBILE APP</h3>
+                    <img src="/image/playstore22.png" alt="" class="iphn">
+                    <img src="/image/playstore11.png" alt="">
+                </div>
+                <div class="contact-detail">
+                    <h3>GET IN TOUCH WITH US</h3>
+                    <div class="phn">
+                        <img src="/image/phone.gif" alt="" width="50px">
+                        <a href="">+91 8815165433</a><br>
+                    </div>
+                    <div class="mail">
+                        <img src="/image/gmail.gif" alt="" width="40px">
+                        <a href="">info@crtd.in</a><br>
+                    </div>
+                    <div class="place">
+                        <img src="/image/address.gif" alt="" width="35px" height="35px">
+                        <a href=""> Ecospace, Marathahalli - Sarjapur Outer Ring Rd, Devarabisanahalli, Bellandur,
+                            Bengaluru, Karnataka 560103</a><br>
+                    </div>
+                    <div class="place">
+                        <img src="/image/address.gif" alt="" width="35px" height="35px">
+                        <a class="with-us" href="">B-nest BHOPAL, SMART CITY DEVLOPMENT CORPORATION LIMITED ZONE-14, Madhya Pradesh
+                            462023</a><br>
+                    </div>
+                    <div class="social-icon">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="footer-copyright"> Copyright © 2021 | All rights reserved by CRTD Technologies.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var isMenuVisible = false;
+        function showMenu() {
+            if (isMenuVisible === false) {
+                document.getElementById('menu').style.height = "250px";
+                isMenuVisible = true;
+            }
+            else {
+                document.getElementById('menu').style.height = "0";
+                isMenuVisible = false;
+            }
+        }
+    </script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
